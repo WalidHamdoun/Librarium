@@ -11,9 +11,6 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import pandas as pd
 from fonc import convertCRScoords_Unic, convertCRScoords_Quato, convertGeoCRScoords
 
-from PyQt5 import QtCore, QtGui, QtWidgets
-
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
